@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src * data:;" />
+    <title>RiffukaStore</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="logo">RiffukaStore</a>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Cari produk..." />
+      </div>
+    </header>
+
+    <div class="categories-section">
+      <div class="categories">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="fashion">Fashion</button>
+        <button class="category-btn" data-category="Beauty">Beauty</button>
+        <button class="category-btn" data-category="Electronic">
+          Electronic
+        </button>
+      </div>
+    </div>
+
+    <div class="products-container" role="main">
+      <!-- Product Items -->
+      <div
+        class="product-card"
+        data-category="Electronic"
+        data-name="POCO X6 Pro 5G (12/512GB)">
+        <img
+          src="assets/POCO X6 Pro 5G 12-512GB.jpeg"
+          alt="POCO X6 Pro 5G (12/512GB)"
+          class="product-image" />
+        <h2 class="product-title">POCO X6 Pro 5G (12/512GB)</h2>
+        <p class="product-description">
+          | Dimensity 8300-Ultra | 120Hz FIow AMOLED | 67W Turbo Charge [
+          Official Store ]
+        </p>
+        <a
+          href="https://vt.tokopedia.com/t/ZSMBv4JL7/"
+          rel="noopener noreferrer"
+          class="affiliate-link"
+          target="_blank"
+          >Beli Sekarang</a
+        >
+      </div>
+
+      <div
+        class="product-card"
+        data-category="Electronic"
+        data-name="POCO M6 Pro (8/256GB)">
+        <img
+          src="assets/POCO M6 Pro 8-256GB.jpeg"
+          alt="POCO M6 Pro (8/256GB)"
+          class="product-image" />
+        <h2 class="product-title">POCO M6 Pro (8/256GB)</h2>
+        <p class="product-description">
+          | Helio G99-Ultra | 120Hz Flow AMOLED | 64MP OIS | 67W turbo charging
+          [ Official Store ]
+        </p>
+        <a
+          href="https://vt.tokopedia.com/t/ZSMBcxK6J/"
+          rel="noopener noreferrer"
+          class="affiliate-link"
+          target="_blank"
+          >Beli Sekarang</a
+        >
+      </div>
+
+      <div
+        class="product-card"
+        data-category="Beauty"
+        data-name="Kahf Personal Care isi 4">
+        <img
+          src="assets/Kahf Personal Care isi 4.jpeg"
+          alt="Kahf Personal Care isi 4"
+          class="product-image" />
+        <h2 class="product-title">Kahf Personal Care isi 4</h2>
+        <p class="product-description">
+          | Face Wash | Body Wash | Sunscreen | Deodorant [ Official Store ]
+        </p>
+        <a
+          href="https://vt.tokopedia.com/t/ZSMBccuYF/"
+          rel="noopener noreferrer"
+          class="affiliate-link"
+          target="_blank"
+          >Beli Sekarang</a
+        >
+      </div>
+
+      <div
+        class="product-card"
+        data-category="fashion"
+        data-name="Kaos Polos Pria">
+        <img
+          src="assets/KAOS POLOS PRIA COTTON.jpeg"
+          alt="Kaos Polos Pria"
+          class="product-image" />
+        <h2 class="product-title">Kaos Polos Pria</h2>
+        <p class="product-description">
+          Cotton Combed 30S Reguler Fit Lengan Pendek [ Official Store ]
+        </p>
+        <a
+          href="https://vt.tokopedia.com/t/ZSMB3Dxxo/"
+          rel="noopener noreferrer"
+          class="affiliate-link"
+          target="_blank"
+          >Beli Sekarang</a
+        >
+      </div>
+
+      <!-- Tambahkan produk lainnya -->
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
